@@ -1,39 +1,26 @@
 {
   "name": "touchbistro",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "cd touchbistro-client && npm install",
+    "server-intstall": "cd touchbistro-server && npm install",
+    "client":"cd touchbistro-client && npm start",
+    "server":"cd touchbistro-server && npm start",
+    "client-test":"cd touchbistro-client && npm run test",
+    "server-test":"cd touchbistro-server && npm run test"
+
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil-sunny/Touch_Bistro_Challenge.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunil-sunny/Touch_Bistro_Challenge/issues"
+  },
+  "homepage": "https://github.com/sunil-sunny/Touch_Bistro_Challenge#readme"
 }

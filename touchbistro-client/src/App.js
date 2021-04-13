@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from '../src/components/Main/Main'
 
 function App() {
   return (
     <div className="App">
       <p>
-        Touch Bistro
+        Touch Bistro Full Stach Challenge
         </p>
+      <Main />
     </div>
   );
 }
