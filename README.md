@@ -1,10 +1,12 @@
 # Touch_Bistro_Challenge
 
+## Prodution Experiance in Node
+* I have Production experiance in Node JS for around an year. Though I majorly worked on Spring Boot, My academic projects and some industrial experiance
+helped me aquire good skill in Node. I have done few MEAN stack applications and you can find those in my GitHub.
 
---> I have Production experiance in Node JS for around an year. Though I majorly worked on Spring Boot, My academic project and some prpfessional experiance 
-helped me aquire good skill in Node.
---> I do not have production experiance in react till now. I have production experiance in Angular for 3 years. I have learnt react upon intrest 
-during my university and I felt it easy to adopt since I have experiance in Angular.
+## Production Experiance in React
+* I do not have production experiance in react till now. I have production experiance in Angular for 3 years. I have learnt react upon intrest 
+during my university and I felt it easy to adopt since I know Angular.
 
 * Date Created: April 13, 2021
 * Last Modification Date: April 13, 2021
