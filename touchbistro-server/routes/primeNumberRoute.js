@@ -24,7 +24,6 @@ router.get('/:id', function (req, res) {
       message: 'Enter a number which is greater than 0'
     })
   }
-
 })
 
 var getPrimeValues = (input) => {

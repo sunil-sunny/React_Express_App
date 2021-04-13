@@ -13,9 +13,9 @@
   width: 50px;
   height: fit-content;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid palegreen;
   align-self: center;
-  background-color: whitesmoke;
+  background-color: palegreen;
   border-radius: 2em;
 }
 
@@ -26,5 +26,15 @@
   border: 1px solid black;
   align-self: center;
   background-color: whitesmoke;
+  margin: auto;
+}
+
+.error{
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 1px solid palevioletred;
+  align-self: center;
+  background-color: palevioletred;
   margin: auto;
 }

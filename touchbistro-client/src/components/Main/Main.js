@@ -19,7 +19,6 @@ class Main extends Component {
         if (this.state.inputValue.length > 0) {
 
             Axios.get(`${URL}${this.state.inputValue}`).then((response) => {
-                console.log(response.data.output);
                 this.setState({ medianValues: response.data.output, isError: false });
             }).catch((err) => {
 
@@ -65,10 +64,10 @@ class Main extends Component {
                 </div>
 
                 <div>
-                    Ouput is Shown Below
-                   {
+                    <p> Ouput is Shown Below</p>
+                    {
                         (this.state.error) ?
-                            <div id="error">
+                            <div id="error" className="error">
                                 {this.state.error}
                             </div> :
                             <div id="output-values" className="median-values">
